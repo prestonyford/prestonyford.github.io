@@ -7,11 +7,12 @@
 			>
 				<ul class="list-inside list-disc">
 					<li>
-						Developed LearningSuite, the university's learning platform used by <b>all 34,000 students</b>
+						Developed <b>LearningSuite</b>, the university's LMS used by <b>34,000+ students</b>
 						<ul class="ml-12 list-inside list-[circle]">
-							<li>Implemented new features in assignment editing and grading exams, allowing instructors to score student submissions</li>
-							<li>Built 5 new pages used by instructors to create assignments, grade exams, and view course data</li>
-							<li>Rewrote several existing pages to use the <b>Vue.js</b> framework</li>
+							<li>Built and enhanced instructor-facing tools for assignment creation, exam grading, and feedback workflows</li>
+							<li>Developed and maintained <b>core features</b> including assignment builders, exam question editors, grading dashboards, and discussion forum management</li>
+							<li>Refactored and migrated <b>5+ legacy pages</b> to <b>Vue.js</b>, improving maintainability and user experience</li>
+							<li>Created <b>PHP API endpoints</b> for handling data retrieval and submission</li>
 						</ul>
 					</li>
 				</ul>
@@ -30,7 +31,7 @@
 					</li>
 					<li>
 						<b>Analyzed hundreds</b> of assignment submissions of dozens of students, graded them for <b> 
-						quality and adherence</b> to instructions
+						quality</b> and adherence to instructions
 					</li>
 				</ul>
 			</ExperienceItem>

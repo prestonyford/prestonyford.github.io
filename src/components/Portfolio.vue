@@ -10,7 +10,7 @@
 					<BouncyArrow class="absolute translate-x-[-50%] bottom-8 cursor-pointer" @click="scrollToExperience" />
 				</div>
 			</div>
-			<div class="flex flex-col gap-12">
+			<div class="flex flex-col gap-24">
 				<Experience ref="experience" />
 				<Skills class="" />
 				<Projects class="" />
