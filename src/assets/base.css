@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+	--color-highlight: oklch(84.5% 0.143 164.978);
+	--color-highlight-alt: oklch(90.5% 0.093 164.15);
+}
+
+:root {
+	--text-color: rgb(255, 255, 255);
+}
+
+body {
+	background-color: black;
+	color: var(--text-color);
+	font-family: "Space Grotesk", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	@apply text-6xl font-bold;
+}
+
+h2 {
+	@apply text-4xl font-bold;
+}
+
+h3 {
+	@apply text-3xl font-semibold;
+}
+h4 {
+	@apply text-2xl font-semibold;
+}
