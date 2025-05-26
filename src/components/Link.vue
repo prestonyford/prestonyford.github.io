@@ -1,11 +1,16 @@
 <template>
-	<a
-		class="transition px-4 py-2 text-highlight hover:text-highlight-alt"
-		:href="href"
-	>
-		<div class="link relative"
-			v-text="text"></div>
-	</a>
+	<span class="inline-flex">
+		<span v-if="icon" class="inline-flex h-[1.5em] items-baseline mr-2 select-none pointer-events-none">
+			<img :src="icon" class="max-h-full" />
+		</span>
+		<a
+			class="transition link relative inline-block text-highlight hover:text-highlight-alt"
+			:href="href"
+			:target="target"
+			v-text="text"
+		>
+		</a>
+	</span>
 </template>
 
 <script>
@@ -18,6 +23,14 @@ export default {
 		href: {
 			type: String,
 			default: ""
+		},
+		target: {
+			type: String,
+			default: "_self"
+		},
+		icon: {
+			type: String,
+			required: false
 		}
 	}
 }
@@ -37,7 +50,7 @@ a {
 	width: 0;
 	@apply bg-highlight;
 }
-a:hover .link::after {
+.link:hover::after {
 	width: 100%;
 	transition: width 0.2s;
 	@apply bg-highlight-alt;

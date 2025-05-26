@@ -11,7 +11,7 @@
 				</div>
 			</div>
 			<div class="flex flex-col gap-24">
-				<Experience ref="experience" />
+				<Experience class="pt-6" ref="experience" />
 				<Skills class="" />
 				<Projects class="" />
 			</div>

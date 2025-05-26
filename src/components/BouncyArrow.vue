@@ -24,17 +24,17 @@ export default {
 <style scoped>
 @keyframes bounce {
 	0%,
-	20%,
+	40%,
 	100% {
 		transform: translateY(0);
 	}
 
-	10% {
+	20% {
 		transform: translateY(18px);
 	}
 }
 
 .bounce {
-	animation: bounce 6s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+	animation: bounce 3s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 </style>

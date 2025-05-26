@@ -22,16 +22,15 @@
 			>
 				<ul class="list-inside list-disc">
 					<li>
-						Educated students in a one-on-one setting frequently; helped students debug and understand their code to 
-						improve their understanding and grades
+						Provided one-on-one guidance to students, helping them debug code and deepen their understanding of course material
 					</li>
 					<li>
-						Taught <b>full-stack</b> web development topics including <b>HTML</b>, <b>CSS</b>, 
+						Taught <b>full-stack</b> web development concepts including <b>HTML</b>, <b>CSS</b>, 
 						<b>JavaScript</b>, <b>React</b>, <b>AWS</b>, <b>MongoDB</b>, etc.
 					</li>
 					<li>
-						<b>Analyzed hundreds</b> of assignment submissions of dozens of students, graded them for <b> 
-						quality</b> and adherence to instructions
+						<b>Analyzed hundreds</b> of assignment submissions and graded them for <b>quality</b>,
+						<b>correctness</b>, and adherence to <b>best practice</b>
 					</li>
 				</ul>
 			</ExperienceItem>
