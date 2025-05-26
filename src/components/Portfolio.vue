@@ -3,11 +3,11 @@
 		<div class="fixed top-[50%] translate-y-[-50%]">
 			<TOC class="ml-8" />
 		</div>
-		<div class="mx-auto max-w-4xl pb-12">
+		<div class="mx-auto max-w-4xl pb-[25vh]">
 			<div class="h-screen flex flex-col items-center justify-center">
 				<Welcome class="h-full" />
 				<div class="relative">
-					<BouncyArrow class="absolute translate-x-[-50%] bottom-8 cursor-pointer" @click="scrollToExperience" />
+					<BouncyArrow class="w-24 h-24 absolute translate-x-[-50%] bottom-8 cursor-pointer" @click="scrollToExperience" />
 				</div>
 			</div>
 			<div class="flex flex-col gap-24">

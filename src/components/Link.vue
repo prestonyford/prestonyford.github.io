@@ -1,6 +1,6 @@
 <template>
 	<span class="inline-flex">
-		<span v-if="icon" class="inline-flex h-[1.5em] items-baseline mr-2 select-none pointer-events-none">
+		<span v-if="icon" class="inline-flex h-[1.5em] items-baseline mr-1 select-none pointer-events-none">
 			<img :src="icon" class="max-h-full" />
 		</span>
 		<a
@@ -46,6 +46,7 @@ a {
 	content: "";
 	position: absolute;
 	display: block;
+	bottom: 1px;
 	height: 2px;
 	width: 0;
 	@apply bg-highlight;

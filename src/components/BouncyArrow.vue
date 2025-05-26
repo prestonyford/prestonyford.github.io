@@ -1,5 +1,5 @@
 <template>
-	<div class="w-24 h-24">
+	<div>
 		<svg class="bounce" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
 			<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -30,7 +30,7 @@ export default {
 	}
 
 	20% {
-		transform: translateY(18px);
+		transform: translateY(20%);
 	}
 }
 

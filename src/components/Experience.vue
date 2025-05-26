@@ -1,7 +1,7 @@
 <template>
 	<div class="">
 		<h1>Experience</h1>
-		<div class="flex flex-col gap-4">
+		<div class="flex flex-col gap-8">
 			<ExperienceItem class="mt-4" position="Web Developer" company="Brigham Young University"
 				date="May 2024 - Present" location="Provo, UT"
 			>
@@ -17,7 +17,7 @@
 					</li>
 				</ul>
 			</ExperienceItem>
-			<ExperienceItem class="mt-4" position="Web Programming Teaching Assistant" company="Brigham Young University"
+			<ExperienceItem position="Web Programming Teaching Assistant" company="Brigham Young University"
 				date="Jan 2024 - Apr 2024" location="Provo, UT"
 			>
 				<ul class="list-inside list-disc">
@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</ExperienceItem>
-			<ExperienceItem class="mt-4" position="Technical Help Desk Intern" company="SolvereOne"
+			<ExperienceItem position="Technical Help Desk Intern" company="SolvereOne"
 				date="May 2022 - Jul 2022" location="Dulles, VA"
 			>
 				<ul class="list-inside list-disc">
