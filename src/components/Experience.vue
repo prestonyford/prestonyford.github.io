@@ -8,7 +8,7 @@
 				<ul class="list-inside list-disc">
 					<li>
 						Developed <b>LearningSuite</b>, the university's LMS used by <b>34,000+ students</b>
-						<ul class="ml-12 list-inside list-[circle]">
+						<ul class="ml-12 list-outside sm:list-inside list-[circle]">
 							<li>Built and enhanced instructor-facing tools for assignment creation, exam grading, and feedback workflows</li>
 							<li>Developed and maintained <b>core features</b> including assignment builders, exam question editors, grading dashboards, and discussion forum management</li>
 							<li>Refactored and migrated <b>5+ legacy pages</b> to <b>Vue.js</b>, improving maintainability and user experience</li>
