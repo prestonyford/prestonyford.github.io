@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<div class="fixed top-[50%] translate-y-[-50%]">
+		<!-- <div class="fixed top-[50%] translate-y-[-50%]">
 			<TOC class="ml-8" />
-		</div>
-		<div class="mx-auto max-w-4xl pb-[25vh]">
+		</div> -->
+		<div class="mx-auto max-w-4xl pb-[25vh] px-6 lg:px-0">
 			<div class="h-screen flex flex-col items-center justify-center">
 				<Welcome class="h-full" />
 				<div class="relative">

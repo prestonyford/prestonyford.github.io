@@ -8,14 +8,12 @@
 					<p class="mt-4"><b>Tech stack:</b> Vue.js, TypeScript, Tailwind CSS</p>
 				</template>
 				<template #preview>
-					<div>
+					<div class="flex flex-col items-center">
 						<iframe src="/minesweeper/index.html" class="w-[246px] h-[338px]"></iframe>
-						<div class="text-center flex justify-center">
-							<div class="flex">
-								<BouncyArrow class="w-6 h-6 inline-block rotate-180" />
-								<span>Interactive</span>
-								<BouncyArrow class="w-6 h-6 inline-block rotate-180" />
-							</div>
+						<div class="flex">
+							<BouncyArrow class="w-6 h-6 inline-block rotate-180" />
+							<span>Interactive</span>
+							<BouncyArrow class="w-6 h-6 inline-block rotate-180" />
 						</div>
 					</div>
 				</template>
@@ -26,7 +24,7 @@
 					<p class="mt-4"><b>Tech stack:</b> C#, .NET, WPF (Windows Presentation Foundation)</p>
 				</template>
 				<template #preview>
-					<div class="mt-[2em] w-[246px]">
+					<div class="sm:mt-[2em] w-[246px]">
 						<img src="https://raw.githubusercontent.com/prestonyford/AudioPlayerWPF/refs/heads/main/screenshot1.png">
 					</div>
 				</template>
@@ -39,7 +37,7 @@
 					<p class="mt-4"><b>Tech stack:</b> Node.js, Express.js</p>
 				</template>
 				<template #preview>
-					<div class="mt-[2em] w-[246px]">
+					<div class="sm:mt-[2em] w-[246px]">
 						<img src="https://raw.githubusercontent.com/prestonyford/http-cache-parser/refs/heads/master/screenshot2.png">
 					</div>
 				</template>

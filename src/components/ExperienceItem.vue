@@ -1,9 +1,9 @@
 <template>
 	<div class="grid grid-cols-2 items-end">
-		<h4 v-text="position"></h4>
+		<h3 v-text="position"></h3>
 		<span class="text-right" v-text="date"></span>
-		<span v-text="company"></span>
-		<span class="text-right" v-text="location"></span>
+		<i v-text="company"></i>
+		<span class="text-right self-start" v-text="location"></span>
 		<div class="col-span-full pt-1">
 			<slot></slot>
 		</div>

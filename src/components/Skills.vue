@@ -1,7 +1,7 @@
 <template>
 	<div class="">
 		<h1>Skills</h1>
-		<div class="mt-4 flex justify-around flex-wrap gap-4">
+		<div class="mt-4 grid grid-cols-4 md:grid-cols-8 gap-4">
 			<SkillItem :src="jsLogo" label="JavaScript"/>
 			<SkillItem :src="tsLogo" label="TypeScript"/>
 			<SkillItem :src="vueLogo" label="Vue.js"/>
