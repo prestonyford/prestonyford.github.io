@@ -6,8 +6,8 @@
 		<div class="mx-auto max-w-4xl pb-[25vh] px-6 lg:px-0">
 			<div class="h-[85vh] sm:h-screen flex flex-col items-center justify-center">
 				<Welcome class="h-full" />
-				<div class="relative">
-					<BouncyArrow class="w-24 h-24 absolute translate-x-[-50%] bottom-8 cursor-pointer" @click="scrollToExperience" />
+				<div class="sm:relative">
+					<BouncyArrow class="w-24 h-24 sm:absolute sm:translate-x-[-50%] bottom-8 cursor-pointer" @click="scrollToExperience" />
 				</div>
 			</div>
 			<div class="flex flex-col gap-24">

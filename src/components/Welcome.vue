@@ -13,7 +13,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="flex gap-12">
+		<div class="flex gap-4 sm:justify-center sm:gap-12">
 			<Link text="Download Resume" href="https://drive.google.com/file/d/1J7vuH9CaMzvhEX4PcgUOKD0Fy-D_ZnyJ/view?usp=sharing" target="_blank" />
 			<Link text="Email Me" href="mailto:preston.y.ford@gmail.com" target="_blank" />
 			<Link text="LinkedIn" :icon="linkedinLogo" href="https://www.linkedin.com/in/preston-ford-897761289/" target="_blank" />
