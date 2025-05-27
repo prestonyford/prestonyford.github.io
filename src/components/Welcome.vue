@@ -11,7 +11,7 @@
 			</div>
 		</div>
 		<div class="flex gap-12">
-			<Link text="Download Resume" />
+			<Link text="Download Resume" href="https://drive.google.com/file/d/1J7vuH9CaMzvhEX4PcgUOKD0Fy-D_ZnyJ/view?usp=sharing" target="_blank" />
 			<Link text="Contact Me" />
 		</div>
 	</div>
