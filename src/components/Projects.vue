@@ -4,7 +4,7 @@
 		<div class="mt-4 flex flex-col gap-8">
 			<ProjectItem name="Minesweeper" repo="https://github.com/prestonyford/WinXPMinesweeper">
 				<template #description>
-					<p>Minesweeper in the style of Windows XP that runs in the browser.</p>
+					<p>Minesweeper in the style of Windows XP that runs in the browser. Try it in the demo to the right!</p>
 					<p class="mt-4"><b>Tech stack:</b> Vue.js, TypeScript, Tailwind CSS</p>
 				</template>
 				<template #preview>
@@ -18,7 +18,7 @@
 					</div>
 				</template>
 			</ProjectItem>
-			<ProjectItem name="AudioPlayerWPF" repo="https://github.com/prestonyford/AudioPlayerWPF">
+			<ProjectItem name="WPF Music App" repo="https://github.com/prestonyford/AudioPlayerWPF">
 				<template #description>
 					<p>An audio player built with .NET's WPF framework that provides several useful features, such as editing tag properties (including album art), creating playlists, creating bookmarks, managing custom starting and ending song positions, and volume control on a per-song basis.</p>
 					<p class="mt-4"><b>Tech stack:</b> C#, .NET, WPF (Windows Presentation Foundation)</p>

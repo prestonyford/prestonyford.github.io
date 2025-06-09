@@ -16,6 +16,16 @@
 						</ul>
 					</li>
 				</ul>
+				<div class="mt-4 flex gap-8 flex-col sm:flex-row">
+					<div>
+						<img :src="LSImage1">
+						<p class="text-center">Assignment Editor</p>
+					</div>
+					<div>
+						<img :src="LSImage2">
+						<p class="text-center">Question Bank</p>
+					</div>
+				</div>
 			</ExperienceItem>
 			<ExperienceItem position="Web Programming Teaching Assistant" company="Brigham Young University"
 				date="Jan 2024 - Apr 2024" location="Provo, UT"
@@ -53,4 +63,6 @@
 
 <script setup>
 import ExperienceItem from '@/components/ExperienceItem.vue'
+import LSImage1 from '@/assets/ls-assignmenteditor.png'
+import LSImage2 from '@/assets/ls-questionbank.png'
 </script>
