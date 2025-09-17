@@ -20,6 +20,7 @@
 					<div class="text-center">
 						<img :src="LSImage1">
 						<p>Assignment Editor</p>
+						<p class="text-gray-300 text-sm">Developed an Assignment Editor tool for creating, editing, and managing course assignments, enabling instructors to configure settings, attach resources, and streamline the grading workflow.</p>
 					</div>
 					<div class="text-center">
 						<img :src="LSImage2">
