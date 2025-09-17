@@ -7,23 +7,24 @@
 			>
 				<ul class="list-inside list-disc">
 					<li>
-						Developed <b>LearningSuite</b>, the university's LMS used by <b>34,000+ students</b>
+						Developed and maintained <b>LearningSuite</b>, the university's Learning Management System used by <b>34,000+ students and faculty</b>
 						<ul class="ml-12 list-outside sm:list-inside list-[circle]">
 							<li>Built and enhanced instructor-facing tools for assignment creation, exam grading, and feedback workflows</li>
-							<li>Developed and maintained <b>core features</b> including assignment builders, exam question editors, grading dashboards, and discussion forum management</li>
+							<li>Led development of <b>core features</b> including assignment builders, exam question editors, grading dashboards, and discussion forum management</li>
 							<li>Refactored and migrated <b>5+ legacy pages</b> to <b>Vue.js</b>, improving maintainability and user experience</li>
 							<li>Created <b>PHP API endpoints</b> for handling data retrieval and submission</li>
 						</ul>
 					</li>
 				</ul>
-				<div class="mt-4 flex gap-8 flex-col sm:flex-row">
-					<div>
+				<div class="mt-6 flex gap-8 flex-col sm:flex-row">
+					<div class="text-center">
 						<img :src="LSImage1">
-						<p class="text-center">Assignment Editor</p>
+						<p>Assignment Editor</p>
 					</div>
-					<div>
+					<div class="text-center">
 						<img :src="LSImage2">
-						<p class="text-center">Question Bank</p>
+						<p>Question Bank</p>
+						<p class="text-gray-300 text-sm">Developed a Question Bank tool for creating and organizing reusable question pools, enabling instructors, departments, and courses to share resources while tracking usage and performance statistics.</p>
 					</div>
 				</div>
 			</ExperienceItem>
