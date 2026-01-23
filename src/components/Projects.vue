@@ -12,14 +12,14 @@
 					</p>
 					<TechStack class="my-4" :stack="['React', 'TypeScript', 'TailwindCSS', 'C#', 'ASP.NET']" />
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss1.png">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss2.png">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss3.png">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss4.png">
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss1.png" />
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss2.png" />
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss3.png" />
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/collaborate/refs/heads/main/ss4.png" />
 					</div>
 				</template>
 			</ProjectItem>
@@ -32,8 +32,8 @@
 				</template>
 				<template #preview>
 					<div class="sm:mt-[2em] w-[246px]">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/AudioPlayerWPF/refs/heads/main/screenshot1.png">
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/AudioPlayerWPF/refs/heads/main/screenshot1.png" />
 					</div>
 				</template>
 			</ProjectItem>
@@ -63,8 +63,8 @@
 				</template>
 				<template #preview>
 					<div class="sm:mt-[2em] w-[246px]">
-						<img
-							src="https://raw.githubusercontent.com/prestonyford/http-cache-parser/refs/heads/master/screenshot2.png">
+						<Thumbnail
+							src="https://raw.githubusercontent.com/prestonyford/http-cache-parser/refs/heads/master/screenshot2.png" />
 					</div>
 				</template>
 			</ProjectItem>
@@ -76,4 +76,5 @@
 import ProjectItem from './ProjectItem.vue';
 import BouncyArrow from './BouncyArrow.vue';
 import TechStack from './TechStack.vue';
+import Thumbnail from './Thumbnail.vue';
 </script>
