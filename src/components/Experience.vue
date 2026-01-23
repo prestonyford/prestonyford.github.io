@@ -18,12 +18,12 @@
 				</ul>
 				<div class="mt-6 flex gap-8 flex-col sm:flex-row">
 					<div class="text-center">
-						<img :src="LSImage1">
+						<Thumbnail :src="LSImage1" />
 						<p>Assignment Editor</p>
 						<p class="text-gray-300 text-sm">Developed an Assignment Editor tool for creating, editing, and managing course assignments, enabling instructors to configure settings, attach resources, and streamline the grading workflow.</p>
 					</div>
 					<div class="text-center">
-						<img :src="LSImage2">
+						<Thumbnail :src="LSImage2" />
 						<p>Question Bank</p>
 						<p class="text-gray-300 text-sm">Developed a Question Bank tool for creating and organizing reusable question pools, enabling instructors, departments, and courses to share resources while tracking usage and performance statistics.</p>
 					</div>
@@ -67,4 +67,5 @@
 import ExperienceItem from '@/components/ExperienceItem.vue'
 import LSImage1 from '@/assets/ls-assignmenteditor.png'
 import LSImage2 from '@/assets/ls-questionbank.png'
+import Thumbnail from './Thumbnail.vue';
 </script>

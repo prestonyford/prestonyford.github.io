@@ -22,11 +22,11 @@ import mysql from '@/assets/mysql-logo.png'
 
 type Tech = 'React' | 'Vue.js' | 'TypeScript' | 'JavaScript' | 'TailwindCSS' | 'C#' | '.NET' | 'ASP.NET' | 'WPF' | 'Node.js' | 'Express.js'
 const techImages: Record<Tech, string> = {
-  React: reactLogo,
+  'React': reactLogo,
   'Vue.js': vueLogo,
-  JavaScript: jsLogo,
-  TypeScript: tsLogo,
-  TailwindCSS: tailwindLogo,
+  'JavaScript': jsLogo,
+  'TypeScript': tsLogo,
+  'TailwindCSS': tailwindLogo,
   'C#': csharpLogo,
   '.NET': 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png',
   'ASP.NET': 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png',

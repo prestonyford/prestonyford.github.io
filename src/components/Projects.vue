@@ -7,7 +7,7 @@
 					<p>
 						Collaborate is a collaborative teamwork and project management application designed to help
 						teams organize work efficiently. It offers an intuitive interface for managing projects,
-						columns, and tasks with powerful features like labels, rich text editing, image upload, and
+						tasks, and task groups with features like labels, rich text editing, image upload, and
 						project sharing.
 					</p>
 					<TechStack class="my-4" :stack="['React', 'TypeScript', 'TailwindCSS', 'C#', 'ASP.NET']" />
