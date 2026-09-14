@@ -3,6 +3,7 @@
 		<span v-if="icon" class="inline-flex h-[1.5em] items-baseline mr-1 select-none pointer-events-none">
 			<img :src="icon" class="max-h-full" />
 		</span>
+		<slot name="left"></slot>
 		<a
 			class="transition link relative inline-block text-highlight hover:text-highlight-alt"
 			:href="href"
