@@ -9,7 +9,7 @@
 			<SkillItem :src="javaLogo" label="Java"/>
 			<SkillItem :src="csharpLogo" label="C#"/>
 			<SkillItem :src="mysql" label="MySQL"/>
-			<SkillItem :src="gitLogo" label="Git"/>
+			<SkillItem :src="scalaLogo" label="Scala"/>
 		</div>
 	</div>
 </template>
@@ -24,4 +24,5 @@ import javaLogo from '@/assets/java-logo.png'
 import csharpLogo from '@/assets/csharp-logo.png'
 import mysql from '@/assets/mysql-logo.png'
 import gitLogo from '@/assets/git-logo.png'
+import scalaLogo from '@/assets/scala-logo.png'
 </script>
