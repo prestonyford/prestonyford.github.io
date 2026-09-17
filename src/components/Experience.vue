@@ -4,7 +4,7 @@
 		<div class="flex flex-col gap-8">
 			<ExperienceItem class="mt-4" position="Software Engineering Intern" company="Lucid"
 				date="May 2026 - Aug 2026" location="South Jordan, UT">
-				Worked on Lucid's public-facing REST API and developer platform
+				Worked on Lucid's public-facing <b>REST API</b> and developer platform
 				<ul class="ml-12 list-inside list-disc">
 					<li>Designed and implemented configurable IP allowlisting for the REST API, letting customers
 						restrict access to trusted IP ranges</li>
@@ -18,7 +18,7 @@
 			<ExperienceItem position="Web Developer" company="Brigham Young University" date="May 2024 - Present"
 				location="Provo, UT">
 				Developed and maintained <b>LearningSuite</b>, the university's Learning Management System used
-				by <b>34,000+ students and faculty</b>
+				by <b>37,000+ students and faculty</b>
 				<ul class="ml-12 list-inside list-disc">
 					<li>Proposed and led a full migration of the legacy build system to Vite, converting
 						thousands of files to ES Modules and greatly improving performance:
