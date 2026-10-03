@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		<div class="flex gap-4 sm:justify-center sm:gap-12">
-			<Link text="Download Resume" href="Preston Ford Resume Sep 2026.pdf" target="_blank">
+			<Link text="Download Resume" href="Preston Ford Resume Oct 2026.pdf" target="_blank">
 				<template #left>
 					<span aria-hidden="true" class="flex items-center"><i class="fa-regular fa-file mr-1.5 text-xl"></i></span>
 				</template>
