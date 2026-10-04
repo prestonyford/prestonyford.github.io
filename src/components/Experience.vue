@@ -23,8 +23,6 @@
 					<li>Proposed and led a full migration of the legacy build system to Vite, converting
 						thousands of files to ES Modules and greatly improving performance:
 						<ul class="ml-12 list-outside sm:list-inside list-[circle]">
-							<li>Production page load time sped up by <b>2.59x</b> <i aria-hidden="true"
-									class="fa-solid fa-angles-up text-green-400"></i></li>
 							<li>Compile time sped up by <b>2.55x</b> <i aria-hidden="true"
 									class="fa-solid fa-angles-up text-green-400"></i></li>
 							<li>Unit test pipeline sped up by <b>3.74x</b> <i aria-hidden="true"
@@ -33,6 +31,7 @@
 					</li>
 					<li>Built core instructor-facing tools including assignment builders, exam question
 						editors, grading dashboards, and discussion forum management</li>
+					<li>Proposed and led a migration of the entire frontend from <b>Vue 2</b> to <b>Vue 3</b></li>
 				</ul>
 				<div class="mt-6 flex gap-8 flex-col sm:flex-row">
 					<div class="text-center">

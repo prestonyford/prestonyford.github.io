@@ -22,8 +22,9 @@ import mysqlLogo from '@/assets/mysql-logo.png'
 import scalaLogo from "@/assets/scala-logo.png"
 import phpLogo from "@/assets/php-logo.png"
 import angularLogo from "@/assets/angular-logo.png"
+import sqliteLogo from "@/assets/sqlite-logo.png"
 
-type Tech = 'React' | 'Vue.js' | 'TypeScript' | 'JavaScript' | 'TailwindCSS' | 'C#' | '.NET' | 'ASP.NET' | 'WPF' | 'Node.js' | 'Express.js' | 'Scala' | 'MySQL' | 'PHP' | 'Angular'
+type Tech = 'React' | 'Vue.js' | 'TypeScript' | 'JavaScript' | 'TailwindCSS' | 'C#' | '.NET' | 'ASP.NET' | 'WPF' | 'Node.js' | 'Express.js' | 'Scala' | 'MySQL' | 'PHP' | 'Angular' | 'SQLite'
 const techImages: Record<Tech, string> = {
 	'React': reactLogo,
 	'Vue.js': vueLogo,
@@ -39,7 +40,8 @@ const techImages: Record<Tech, string> = {
 	'Scala': scalaLogo,
 	'MySQL': mysqlLogo,
 	'PHP': phpLogo,
-	'Angular': angularLogo
+	'Angular': angularLogo,
+	'SQLite': sqliteLogo
 }
 
 const props = defineProps<{

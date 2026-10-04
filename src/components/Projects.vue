@@ -2,6 +2,23 @@
 	<div class="">
 		<h1>Projects</h1>
 		<div class="mt-4 flex flex-col gap-12">
+			<ProjectItem name="Gig Glide" repo="https://github.com/prestonyford/byu-cs-homecoming-hackathon-2026">
+				<template #description>
+					<div class="mb-2"><strong>BYU CS Homecoming Hackathon 2026: Best use of AI 3rd place</strong></div>
+					<p>
+						Gig Glide is a swipe-based job-search app that ranks postings from company career boards using
+						local sentence embeddings and an online logistic-regression
+						model that retrains on every swipe, and helps users tailor
+						their profile with per-job skill-gap analysis, curated learning resources, and automatic resume
+						updates.
+					</p>
+					<TechStack class="my-4" :stack="['Vue.js', 'TypeScript', 'TailwindCSS', 'Node.js', 'SQLite']" />
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-2 mt-2">
+						<Thumbnail :src="gigGlide0" />
+						<Thumbnail :src="gigGlide1" />
+					</div>
+				</template>
+			</ProjectItem>
 			<ProjectItem name="Collaborate" repo="https://github.com/prestonyford/collaborate">
 				<template #description>
 					<p>
@@ -25,7 +42,8 @@
 			</ProjectItem>
 			<ProjectItem name="WPF Music App" repo="https://github.com/prestonyford/AudioPlayerWPF">
 				<template #description>
-					<p>An audio player built with .NET's WPF (Windows Presentation Foundation) framework that provides several useful features, such as
+					<p>An audio player built with .NET's WPF (Windows Presentation Foundation) framework that provides
+						several useful features, such as
 						editing tag properties (including album art), creating playlists, creating bookmarks, managing
 						custom starting and ending song positions, and volume control on a per-song basis.</p>
 					<TechStack class="my-4" :stack="['C#', '.NET', 'WPF']" />
@@ -77,4 +95,7 @@ import ProjectItem from './ProjectItem.vue';
 import BouncyArrow from './BouncyArrow.vue';
 import TechStack from './TechStack.vue';
 import Thumbnail from './Thumbnail.vue';
+
+import gigGlide0 from '@/assets/gigglide0.png';
+import gigGlide1 from '@/assets/gigglide1.png';
 </script>
